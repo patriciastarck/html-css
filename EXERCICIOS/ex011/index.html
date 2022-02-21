@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+        
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p> Tente abrir esse site em vários dispositoivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+        <P><strong>ESSE PROCESSO É MT BOM PARA O USUÁRIO, POIS FACILITA PARA ELE. EVITA QUE FIQUE ROLANDO BARRA DE ROLAGEM PARA VER AS IMAGENS E PERMITE QUE AS IMAGENS SE AJUSTEM A TODOS OS TAMANHOS DE TELA.</strong></P>
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível" srcset="">
+    </picture>
+    
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    audio
+    <audio src="midia/smokejacketblues.mp3" controls autoplay></audio>
+</body>
+</html>

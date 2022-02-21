@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_Br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping Tags</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: dimgray;
+    }
+    footer{
+      background-color: black;
+      color: white;
+      text-align: center;
+      width: bolder;
+      padding: 3px;
+      margin: 0;
+          }
+    header{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+    nav{
+      background-color: rgb(102, 102, 102);
+      padding: 3px;
+      box-shadow: 1px 1px 1px red;
+    }
+    nav > a{
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-right: 30px;
+
+    }
+    nav > a:hover{
+      text-decoration: underline;
+    }
+       main{
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px 20px 30px 40px
+
+    }
+    article{
+      background-color: lightgray;
+      padding: 5px;
+    }
+    article > aside{
+      background-color: rgb(165, 165, 165;
+    }
+  </style>
+</head>
+<body>
+  <!--heather, main e footer não deixam de ser divs, porém, são semânticas e ajudam o site.-->
+  <header> <!--heather = cabeçalho-->
+    <h1>Meu site</h1>
+    <nav>
+      <a href="">site</a>
+      <a href="">site</a>
+      <a href="">site</a>
+      <a href="">site</a>
+      <a href="">site</a>
+    </nav>
+
+  </header>
+  <main> 
+    <section id="assuntos">
+      <p>Esportes Política Tecnologia</p>
+
+    </section>
+    <section id="notícias">
+      <article>
+        <h2>Noticias do Brasil</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam numquam architecto, blanditiis quas debitis nihil quis a commodi temporibus, distinctio nobis nisi tempore iste minus omnis natus ad laborum impedit.</p>
+        <aside>
+          <p>Artigo escrito por José da Silva</p>
+        </aside>
+      </article>
+    </section>
+  </main>
+
+  <footer> 
+    <p>Desenvolvido por Patricia Starck Bernardi</p>
+
+  </footer>
+</body>
+</html>
